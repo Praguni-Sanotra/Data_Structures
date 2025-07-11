@@ -121,3 +121,21 @@ Template :
 - In C++, implementation of template is peformed via two methods 
  1. Generic_Fuction
  2. Generic_Class
+
+
+ STACK:
+        -Stack is a linear data structure that follows LIFO(Last In First Out) principle.
+
+        -Stack has one end only.
+        -It contains only one pointer pointing to the topmost elements of the stack.
+
+        eg:
+            -Recursion
+            -Do and Undo Mechanism 
+
+STACK FUNCTIONS:
+    1. push() - use to store element in Stack
+    2. pop() - use to remove element from the top of the stack 
+    3. top() - Returns the element at the top of the stack without removing it.
+    4. empty() - returns true if stack is empty otherwise false 
+    5. size() - return number of elements of stack              
