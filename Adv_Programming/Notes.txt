@@ -1,0 +1,30 @@
+SYSTEM INFORMATION 
+MEMORY MANAGEMENT INFORMATION 
+BUILT-IN FUNCTIONS 
+IMPORTANT DECLARATION 
+
+
+WAYS TO DECLARE METHODS 
+    1. Inside class method 
+    2. Outside class method 
+
+
+COPY CONSTRUCTOR
+Copy constructor is a special type of construct that initialises or creates a new object as a copy of an existing object.
+Default Copy constructor: 
+It is an automatically provided constructor by the c++ compiler.
+
+We create variable to allocate memory space 
+
+
+STRUCTURE:
+
+Structure is a derived datatype 
+
+FUNCTIONS : 
+1 . LIBRARY FUNCTIONS 
+2 . USER DEFINED FUNCTIONS 
+3 . SPECIAL FUNCTIONS 
+
+USER DEFINED FUNCTIONS : 1. ITERATIVE FUNCTIONS 
+                         2. RECURSIVE FUNCTIONS 

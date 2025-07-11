@@ -1,0 +1,123 @@
+Variable:
+    Variables are same as container which is used to store any type of data 
+
+Pointer:
+    Pointer is a special type of variable which is used to store address of another variable.
+
+Reference [ & ]:
+    It returns the address of given variable.
+
+De-Reference [ * ]:
+    It returns the value at given address.
+
+TYPES OF POINTER:
+
+1. NULL Pointer:
+        Pointer initialise with nullptr is called NULL Pointer.
+            - it is a good practice to initialise pointer with NUll to avoid WILD Pointer.
+
+2. VOID Pointer:
+        Pointer defined using void keyword is called void pointer.
+
+        SYNTAX: 
+            void * ptr_name = NULL;
+
+            - It is also known as generic pointer.
+
+3. DANGLING Pointer: 
+        Pointer which indicates memory which is deallocated.
+
+4. CONSTANT Variable:
+         Constant variable is defined using const keyword.
+        - We cannot override the value of constant variable.
+         
+5. CONSTANT Pointer:
+        Constant pointer is same as constant variable :
+        SYNTAX:
+            const data_type * ptr_name = & variable_name;
+
+
+POINTER OF POINTER 
+    It is also known as double pointer, used to store address of any pointer:
+
+    SYNTAX:
+        data_type ** pointer_name = & another_pointer_name;
+
+
+
+RECURSION : 
+    Recursion is a technique in which a function calls itself.
+
+
+NOTE: For every constructor call, there must be constructor defined        
+
+Destructor : It is used to destroy the object.
+            - In other words, it deallocate memory allocated by constructor 
+
+
+Copy Constructor: 
+            - If we do not define copy constructor then the compiler define it for us
+
+
+[this] keyword : 
+        - (this) keyword is a constant pointer which contain the address of current object 
+
+
+SYSTEM INFORMATION 
+MEMORY MANAGEMENT INFORMATION 
+BUILT-IN FUNCTIONS 
+IMPORTANT DECLARATION 
+
+
+WAYS TO DECLARE METHODS 
+    1. Inside class method 
+    2. Outside class method 
+
+
+COPY CONSTRUCTOR
+Copy constructor is a special type of construct that initialises or creates a new object as a copy of an existing object.
+Default Copy constructor: 
+It is an automatically provided constructor by the c++ compiler.
+
+We create variable to allocate memory space 
+
+
+STRUCTURE:
+
+Structure is a derived datatype 
+
+FUNCTIONS : 
+1 . LIBRARY FUNCTIONS 
+2 . USER DEFINED FUNCTIONS 
+3 . SPECIAL FUNCTIONS 
+
+USER DEFINED FUNCTIONS : 1. ITERATIVE FUNCTIONS 
+                         2. RECURSIVE FUNCTIONS 
+
+
+
+STATIC DATA MEMBER :
+            -It is defined using static keyword.
+                - When static is used with data member in a class, it makes the variable shared among all instances of the class.
+
+STATIC MEMBER FUNCTION : A static member function in C++ is a member of a class that:
+                            -Belongs to the class rather than any object of the class.
+                            -Can be called using the class name (without creating an object).
+                            -Can access only static data members and other static member functions of the class.
+                            -Cannot access this pointer because it is not tied to any instance
+
+
+DOUBLY LINKED LIST:  A doubly linked list is a type of linked list in which each node contains three parts:
+                        - Data – The value stored in the node.
+                        -Pointer to the next node – Points to the next node in the list.
+                        -Pointer to the previous node – Points to the previous node in the list.
+                        -This allows bidirectional traversal: both forward and backward through the list.
+
+Template : 
+        -Template is a base of generic programming in c++.
+        - Genereic Programming is a programming which is independent of any data type.
+
+
+- In C++, implementation of template is peformed via two methods 
+ 1. Generic_Fuction
+ 2. Generic_Class
