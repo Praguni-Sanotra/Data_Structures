@@ -1,5 +1,7 @@
 # Data_Structures
+
 ### 📌 Data Structures Covered
+
 - Arrays
 - Strings
 - Linked Lists (Singly, Doubly, Circular)
@@ -13,6 +15,7 @@
 - Segment Trees and Binary Indexed Trees (Fenwick Tree)
 
 ### 📌 Algorithms Covered
+
 - Sorting (Bubble, Merge, Quick, Heap, Radix)
 - Searching (Linear, Binary)
 - Recursion and Backtracking
@@ -23,3 +26,4 @@
 - Bit Manipulation
 - Topological Sorting
 - String Algorithms (KMP, Rabin-Karp, Z-Algorithm)
+-
